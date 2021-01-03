@@ -10,7 +10,7 @@
 
  :root {
     --start-row: 1;
-    --header-height: 4.3rem;
+    --header-height: 4rem;
     /* COLORS */
     --first-color: #2B32B2;
     --first-color-alt: #1488CC;
@@ -1098,6 +1098,10 @@ footer {
 }
 
 @media(max-width: 600px) {
+    .nav{
+        background-color: #fff;
+        border-radius: 0;
+    }
     #home {
         width: 100vw;
     }
@@ -1119,7 +1123,8 @@ footer {
         color: #fff;
     }
     #home nav {
-        padding-top: 2vh;
+        padding-top: 1vh;
+        border-radius: 0;
     }
     #home nav img {
         width: 30vw;
@@ -1205,11 +1210,12 @@ footer {
     }
 }
 
-
 /* Show menu */
 
+
 .show-menu {
-    top: var(--header-height);
+    /* top: var(--header-height); */
+    top: 9vh;
     background-color: white;
 }
 

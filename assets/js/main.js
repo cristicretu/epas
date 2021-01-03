@@ -155,7 +155,7 @@ const showMenu = (toggleId, navId) => {
 showMenu('nav-toggle', 'nav-menu')
 
 // HIDE MENU
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll('.nav-link')
 
 function linkAction() {
     const navMenu = document.getElementById('nav-menu')
