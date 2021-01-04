@@ -159,8 +159,8 @@ header {
     color: #000;
     height: 10vh;
     border-radius: 0 0 1rem 1rem;
-    /* box-shadow: 0 5px 20px rgb(10, 10, 10, 0.2); */
-    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.3);
+    box-shadow: 0 5px 20px rgb(10, 10, 10, 0.01);
+    /* box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.3); */
     transition: .6s;
 }
 
