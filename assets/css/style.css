@@ -159,7 +159,8 @@ header {
     color: #000;
     height: 10vh;
     border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 5px 20px rgb(10, 10, 10, 0.2);
+    /* box-shadow: 0 5px 20px rgb(10, 10, 10, 0.2); */
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.3);
     transition: .6s;
 }
 
@@ -377,7 +378,8 @@ header {
     display: inline-block;
     background-color: var(--first-color);
     color: #FFF;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, .1); */
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.25);
     /* background-color: #fff;
   color: var(--first-color); */
     padding: .75rem 1rem;
@@ -473,6 +475,8 @@ header {
 .box1 {
     position: relative;
     background: linear-gradient(180deg, #074766 0%, rgba(8, 35, 48, 0) 100%);
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     border-radius: 16px;
     width: 18vw;
     height: 25vh;
@@ -491,6 +495,8 @@ header {
     content: '';
     position: absolute;
     background: url('../img/us_flag.png') no-repeat center center/cover;
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     border-radius: 16px;
     width: 18vw;
     height: 25vh;
@@ -500,6 +506,8 @@ header {
 .box2 {
     position: relative;
     background: linear-gradient(180deg, #074766 0%, rgba(8, 35, 48, 0) 100%);
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     border-radius: 16px;
     width: 18vw;
     height: 25vh;
@@ -509,6 +517,8 @@ header {
     content: '';
     position: absolute;
     background: url('../img/salzburg.png') no-repeat center center/cover;
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     width: 18vw;
     height: 25vh;
     border-radius: 16px;
@@ -518,6 +528,8 @@ header {
 .box3 {
     position: relative;
     background: linear-gradient(180deg, #074766 0%, rgba(8, 35, 48, 0) 100%);
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     border-radius: 16px;
     width: 18vw;
     height: 25vh;
@@ -527,6 +539,8 @@ header {
     content: '';
     position: absolute;
     background: url('../img/scul.png') no-repeat center center/cover;
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     width: 18vw;
     height: 25vh;
     border-radius: 16px;
@@ -536,6 +550,8 @@ header {
 .box4 {
     position: relative;
     background: linear-gradient(180deg, #074766 0%, rgba(8, 35, 48, 0) 100%);
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     border-radius: 16px;
     width: 18vw;
     height: 25vh;
@@ -545,6 +561,8 @@ header {
     content: '';
     position: absolute;
     background: url("../img/yes.jpg") no-repeat center center/cover;
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.10);
+
     width: 18vw;
     height: 25vh;
     border-radius: 16px;
@@ -553,6 +571,7 @@ header {
 
 
 /* TEAM */
+
 
 #team {
     color: #2B32B2;
@@ -564,9 +583,9 @@ header {
 }
 
 .info h1 {
-    font-weight: (var(--font-medium));
-    font-size: var(--h1-font-size);
-    font-weight: 500;
+    /* font-weight: (var(--font-medium)); */
+    /* font-size: var(--h1-font-size); */
+    /* font-weight: 500; */
 }
 
 .info h2 {
@@ -618,10 +637,13 @@ header {
     grid-row-start: var(--start-row);
     grid-template-columns: 1fr 2fr;
     gap: 1rem;
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.4);
+
 }
 
 #team .team-content.animate:hover {
     animation: animation_scale 0.7s forwards ease-in;
+    box-shadow: 0px 0px 37px 8px rgba(0, 56, 255, 0.4);
 }
 
 @keyframes animation_scale {
@@ -682,8 +704,8 @@ header {
 }
 
 #contact .data {
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
-    border-radius: 5px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, .25);
+    border-radius: 10px;
     padding: 1.25rem;
 }
 
@@ -785,9 +807,11 @@ header {
     margin-top: 1rem;
 }
 
+/* FOOTER */
 footer {
     margin-top: 8rem;
     margin-bottom: 2rem;
+    /* background: linear-gradient(208.27deg, #278EFF 0%, #6271FF 95.3%); */
 }
 
 .footer-container {

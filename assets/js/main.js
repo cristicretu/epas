@@ -76,8 +76,8 @@ function removerActiveClass() {
 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '30px',
-    duration: 2200,
+    distance: '60px',
+    duration: 1750,
 });
 
 sr.reveal('.home__data, .human, form, .team-content, .blog__content, .contact-data, .contact-button, .footer-content', {
