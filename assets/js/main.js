@@ -76,7 +76,7 @@ function removerActiveClass() {
 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '60px',
+    distance: '80px',
     duration: 1750,
 });
 
